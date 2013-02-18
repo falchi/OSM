@@ -27,4 +27,6 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
+    
+    //Faltan los métodos onResume() y onPause() para suspender el uso del gps cuando no se use la app y para reanudarlo cuando se vuelva a abrir.
 }
